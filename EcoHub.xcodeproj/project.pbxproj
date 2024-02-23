@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE26163D2B83F21600E0022F /* NameTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26163C2B83F21600E0022F /* NameTab.swift */; };
+		BE2616402B83F36F00E0022F /* LogoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26163F2B83F36F00E0022F /* LogoRow.swift */; };
+		BE2616422B83F3B600E0022F /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2616412B83F3B600E0022F /* StatusBar.swift */; };
+		BE2616442B83F42300E0022F /* AgeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2616432B83F42300E0022F /* AgeTab.swift */; };
+		BE26164A2B83FED900E0022F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2616492B83FED900E0022F /* HomeView.swift */; };
+		BE26164C2B8403D300E0022F /* PermissionsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26164B2B8403D300E0022F /* PermissionsTab.swift */; };
+		BE2616522B851D8600E0022F /* LocationKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2616512B851D8600E0022F /* LocationKitManager.swift */; };
+		BE2616542B851DE700E0022F /* WeatherKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2616532B851DE700E0022F /* WeatherKitManager.swift */; };
+		BE2616562B85248300E0022F /* AQManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2616552B85248300E0022F /* AQManager.swift */; };
+		BE2616592B85567200E0022F /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE2616582B85567200E0022F /* Secrets.plist */; };
+		BE26165B2B85607500E0022F /* AirQualityInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26165A2B85607500E0022F /* AirQualityInfoView.swift */; };
+		BE26165F2B8584E200E0022F /* AirQualityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26165E2B8584E200E0022F /* AirQualityRow.swift */; };
+		BEFBA94C2B82930300E4726A /* EcoHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFBA94B2B82930300E4726A /* EcoHubApp.swift */; };
+		BEFBA94E2B82930300E4726A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFBA94D2B82930300E4726A /* ContentView.swift */; };
+		BEFBA9502B82930500E4726A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFBA94F2B82930500E4726A /* Assets.xcassets */; };
+		BEFBA9532B82930500E4726A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFBA9522B82930500E4726A /* Preview Assets.xcassets */; };
+		BEFBA95A2B82A6A000E4726A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFBA9592B82A6A000E4726A /* WelcomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE26163C2B83F21600E0022F /* NameTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTab.swift; sourceTree = "<group>"; };
+		BE26163F2B83F36F00E0022F /* LogoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoRow.swift; sourceTree = "<group>"; };
+		BE2616412B83F3B600E0022F /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+		BE2616432B83F42300E0022F /* AgeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeTab.swift; sourceTree = "<group>"; };
+		BE2616492B83FED900E0022F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BE26164B2B8403D300E0022F /* PermissionsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsTab.swift; sourceTree = "<group>"; };
+		BE26164D2B84F73F00E0022F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BE2616512B851D8600E0022F /* LocationKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationKitManager.swift; sourceTree = "<group>"; };
+		BE2616532B851DE700E0022F /* WeatherKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherKitManager.swift; sourceTree = "<group>"; };
+		BE2616552B85248300E0022F /* AQManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQManager.swift; sourceTree = "<group>"; };
+		BE2616582B85567200E0022F /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		BE26165A2B85607500E0022F /* AirQualityInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityInfoView.swift; sourceTree = "<group>"; };
+		BE26165C2B85777400E0022F /* EcoHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EcoHub.entitlements; sourceTree = "<group>"; };
+		BE26165E2B8584E200E0022F /* AirQualityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityRow.swift; sourceTree = "<group>"; };
+		BEFBA9482B82930300E4726A /* EcoHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFBA94B2B82930300E4726A /* EcoHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoHubApp.swift; sourceTree = "<group>"; };
+		BEFBA94D2B82930300E4726A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEFBA94F2B82930500E4726A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEFBA9522B82930500E4726A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEFBA9592B82A6A000E4726A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFBA9452B82930300E4726A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE26163B2B83F20200E0022F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BE2616452B83F55C00E0022F /* Components */,
+				BEFBA9592B82A6A000E4726A /* WelcomeView.swift */,
+				BE26163C2B83F21600E0022F /* NameTab.swift */,
+				BE2616432B83F42300E0022F /* AgeTab.swift */,
+				BE26164B2B8403D300E0022F /* PermissionsTab.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		BE26163E2B83F35F00E0022F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE26163F2B83F36F00E0022F /* LogoRow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE2616452B83F55C00E0022F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BE2616412B83F3B600E0022F /* StatusBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BE2616482B83FE3D00E0022F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BE2616502B851D7900E0022F /* Services */,
+				BE26165D2B8584A400E0022F /* Components */,
+				BEFBA94D2B82930300E4726A /* ContentView.swift */,
+				BE26165A2B85607500E0022F /* AirQualityInfoView.swift */,
+				BE2616492B83FED900E0022F /* HomeView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BE2616502B851D7900E0022F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BE2616512B851D8600E0022F /* LocationKitManager.swift */,
+				BE2616532B851DE700E0022F /* WeatherKitManager.swift */,
+				BE2616552B85248300E0022F /* AQManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BE26165D2B8584A400E0022F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BE26165E2B8584E200E0022F /* AirQualityRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BEFBA93F2B82930300E4726A = {
+			isa = PBXGroup;
+			children = (
+				BEFBA94A2B82930300E4726A /* EcoHub */,
+				BEFBA9492B82930300E4726A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFBA9492B82930300E4726A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFBA9482B82930300E4726A /* EcoHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFBA94A2B82930300E4726A /* EcoHub */ = {
+			isa = PBXGroup;
+			children = (
+				BE26165C2B85777400E0022F /* EcoHub.entitlements */,
+				BE26164D2B84F73F00E0022F /* Info.plist */,
+				BE2616582B85567200E0022F /* Secrets.plist */,
+				BEFBA94B2B82930300E4726A /* EcoHubApp.swift */,
+				BE26163E2B83F35F00E0022F /* Model */,
+				BE26163B2B83F20200E0022F /* Onboarding */,
+				BE2616482B83FE3D00E0022F /* App */,
+				BEFBA94F2B82930500E4726A /* Assets.xcassets */,
+				BEFBA9512B82930500E4726A /* Preview Content */,
+			);
+			path = EcoHub;
+			sourceTree = "<group>";
+		};
+		BEFBA9512B82930500E4726A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEFBA9522B82930500E4726A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFBA9472B82930300E4726A /* EcoHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFBA9562B82930500E4726A /* Build configuration list for PBXNativeTarget "EcoHub" */;
+			buildPhases = (
+				BEFBA9442B82930300E4726A /* Sources */,
+				BEFBA9452B82930300E4726A /* Frameworks */,
+				BEFBA9462B82930300E4726A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoHub;
+			productName = EcoHub;
+			productReference = BEFBA9482B82930300E4726A /* EcoHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFBA9402B82930300E4726A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BEFBA9472B82930300E4726A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BEFBA9432B82930300E4726A /* Build configuration list for PBXProject "EcoHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEFBA93F2B82930300E4726A;
+			productRefGroup = BEFBA9492B82930300E4726A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFBA9472B82930300E4726A /* EcoHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFBA9462B82930300E4726A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFBA9532B82930500E4726A /* Preview Assets.xcassets in Resources */,
+				BE2616592B85567200E0022F /* Secrets.plist in Resources */,
+				BEFBA9502B82930500E4726A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFBA9442B82930300E4726A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE26164A2B83FED900E0022F /* HomeView.swift in Sources */,
+				BE2616422B83F3B600E0022F /* StatusBar.swift in Sources */,
+				BE2616522B851D8600E0022F /* LocationKitManager.swift in Sources */,
+				BE26164C2B8403D300E0022F /* PermissionsTab.swift in Sources */,
+				BEFBA94E2B82930300E4726A /* ContentView.swift in Sources */,
+				BE2616442B83F42300E0022F /* AgeTab.swift in Sources */,
+				BE2616542B851DE700E0022F /* WeatherKitManager.swift in Sources */,
+				BE2616562B85248300E0022F /* AQManager.swift in Sources */,
+				BEFBA95A2B82A6A000E4726A /* WelcomeView.swift in Sources */,
+				BE2616402B83F36F00E0022F /* LogoRow.swift in Sources */,
+				BE26165B2B85607500E0022F /* AirQualityInfoView.swift in Sources */,
+				BE26165F2B8584E200E0022F /* AirQualityRow.swift in Sources */,
+				BE26163D2B83F21600E0022F /* NameTab.swift in Sources */,
+				BEFBA94C2B82930300E4726A /* EcoHubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEFBA9542B82930500E4726A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEFBA9552B82930500E4726A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFBA9572B82930500E4726A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoHub/EcoHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoHub/Preview Content\"";
+				DEVELOPMENT_TEAM = UN939ZPX52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoHub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobpantuso.EcoHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEFBA9582B82930500E4726A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoHub/EcoHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoHub/Preview Content\"";
+				DEVELOPMENT_TEAM = UN939ZPX52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoHub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobpantuso.EcoHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFBA9432B82930300E4726A /* Build configuration list for PBXProject "EcoHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFBA9542B82930500E4726A /* Debug */,
+				BEFBA9552B82930500E4726A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFBA9562B82930500E4726A /* Build configuration list for PBXNativeTarget "EcoHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFBA9572B82930500E4726A /* Debug */,
+				BEFBA9582B82930500E4726A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEFBA9402B82930300E4726A /* Project object */;
+}
