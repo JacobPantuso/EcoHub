@@ -1,4 +1,4 @@
-![](https://github.com/JacobPantuso/jacobpantuso.github.io/blob/main/src/img/EcoHubBanner-ezgif.com-optimize.gif?raw=true)
+![](https://github.com/JacobPantuso/jacobpantuso.github.io/blob/main/src/img/ecohub-banner.gif?raw=true)
 # Introduction
 🌱🌍 I'm thrilled to share a project I've been working on for quite some time. My journey with EcoHub began with a deep-seated curiosity about the intricate relationship between human actions and the environment. Motivated by the Apple Student Developer Challenge, I was inspired to start working on something that will carry meaning for years to come.
 
